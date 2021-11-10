@@ -108,7 +108,7 @@
       test = { rust-w64, source }: rust-w64.latest.rustPlatform.buildRustPackage {
         pname = self.lib.crate.package.name;
         inherit (self.lib.crate) version;
-        cargoSha256 = "sha256-FcfLXir5gOdcjQIyrTq+sEM2QezSFyOo08axHbMRLbE=";
+        cargoSha256 = "0kax0l19cray5fri18xdb6r7hji4792v8khph3fgbb2qxia8pgpk";
         src = source;
         cargoBuildFlags = [ ];
         cargoTestFlags = [ "--all-targets" ];
